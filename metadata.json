@@ -1,0 +1,5 @@
+{
+  "name": "Licznik Lustrzany",
+  "description": "Aplikacja wyświetlająca 3-cyfrową liczbę, która naprzemiennie pokazuje normalny i lustrzany widok, idealna do transmisji z przedniej kamery.",
+  "requestFramePermissions": []
+}
