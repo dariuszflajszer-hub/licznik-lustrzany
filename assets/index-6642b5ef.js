@@ -50,4 +50,4 @@ Error generating stack: `+o.message+`
                      bg-red-600 hover:bg-red-700 active:bg-red-800
                      shadow-lg transition-colors`,children:"Wyczyść"}),pe.jsx("button",{onClick:()=>e.length===3&&r(!0),className:`mt-4 px-10 py-4 text-2xl font-bold rounded-xl
                      bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800
-                     shadow-lg transition-colors disabled:opacity-40`,disabled:e.length!==3,children:"Pokaż"})]})},nc=document.getElementById("root");if(!nc)throw new Error("Could not find root element to mount to");const Md=Ql.createRoot(nc);Md.render(pe.jsx(wc.StrictMode,{children:pe.jsx(Od,{})}));
+                     shadow-lg transition-colors disabled:opacity-40`,disabled:e.length!==3,children:"Pokaż"})]})},nc=document.getElementById("root");if(!nc)throw new Error("Nie znaleziono #root");Ql.createRoot(nc).render(pe.jsx(wc.StrictMode,{children:pe.jsx(Od,{})}));
